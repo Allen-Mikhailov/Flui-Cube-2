@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS31FL3728-QFLS2-TR
+D LED Display Drivers Audio Mod Matrix LED Driver
+K
+F https://www.lumissil.com/assets/pdf/core/IS31FL3728_DS.pdf
+$ENDCMP
+#
+#End Doc Library

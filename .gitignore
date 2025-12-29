@@ -19,3 +19,6 @@ _autosave-*
 *.xml
 *.csv
 
+# backups
+matrix-controller-backups/
+

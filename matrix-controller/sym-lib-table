@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LED_1088as")(type "KiCad")(uri "${KIPRJMOD}/kicad-LED_DotMatrix-main/lib_sch/LED_1088as.kicad_sym")(options "")(descr ""))
+  (lib (name "LED_1088bs")(type "KiCad")(uri "${KIPRJMOD}/kicad-LED_DotMatrix-main/lib_sch/LED_1088bs.kicad_sym")(options "")(descr ""))
+  (lib (name "IS31FL3728-QFLS2-TR")(type "KiCad")(uri "${KIPRJMOD}/IS31FL3728-QFLS2-TR/IS31FL3728-QFLS2-TR.kicad_sym")(options "")(descr ""))
+)

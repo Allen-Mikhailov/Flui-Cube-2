@@ -440,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -596,6 +597,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -612,6 +621,14 @@
     [
       "70af459e-5fc9-4c1d-894d-7e71ab2dca95",
       "Root"
+    ],
+    [
+      "f00320e7-478c-474b-9fd1-c4cf57aa5a54",
+      "MatrixPlusDriver"
+    ],
+    [
+      "9d936f13-4432-4cb0-823a-c913cf8ad7e0",
+      "MatrixPlusDriver1"
     ]
   ],
   "text_variables": {}
