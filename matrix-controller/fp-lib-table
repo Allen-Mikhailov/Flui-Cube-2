@@ -4,4 +4,5 @@
   (lib (name "kicad-LED_DotMatrix-main")(type "KiCad")(uri "${KIPRJMOD}/kicad-LED_DotMatrix-main")(options "")(descr ""))
   (lib (name "lib_fp")(type "KiCad")(uri "${KIPRJMOD}/kicad-LED_DotMatrix-main/lib_fp")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/ul_XMSM0G3507SDGS28R/footprints.pretty")(options "")(descr ""))
+  (lib (name ".pretty")(type "KiCad")(uri "${KIPRJMOD}/ICM-42370-P/.pretty.pretty")(options "")(descr ""))
 )

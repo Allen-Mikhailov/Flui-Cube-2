@@ -6591,6 +6591,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -7245,17 +7370,6 @@
 		)
 		(uuid "dae39c7b-09cf-40e1-9002-20a1325973a5")
 	)
-	(hierarchical_label "SDB"
-		(shape input)
-		(at 109.22 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4843a1e-fd2f-489d-b5dc-6145340b685a")
-	)
 	(hierarchical_label "R1"
 		(shape input)
 		(at 119.38 83.82 270)
@@ -7288,7 +7402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc40b37-b259-4765-a129-44c9255e8e83")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 92.71 58.4263 0)
 			(effects
 				(font
@@ -7361,10 +7475,6 @@
 					(reference "C2")
 					(unit 1)
 				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "C1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7377,7 +7487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "776a4212-fcf0-49cc-a743-19b40f838dcb")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 183.642 74.422 0)
 			(effects
 				(font
@@ -7492,10 +7602,6 @@
 					(reference "U3")
 					(unit 1)
 				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "U1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7509,7 +7615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "823cbde2-2ba6-421f-bd19-046c0a19a4d6")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 82.55 58.4263 0)
 			(effects
 				(font
@@ -7582,10 +7688,6 @@
 					(reference "C11")
 					(unit 1)
 				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "C8")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7598,7 +7700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89bcaa70-87bf-451d-951b-fa19df1fd392")
-		(property "Reference" "IC1"
+		(property "Reference" "IC2"
 			(at 126.238 28.194 0)
 			(effects
 				(font
@@ -7790,10 +7892,6 @@
 					(reference "IC2")
 					(unit 1)
 				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "IC1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7807,7 +7905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93eec228-7196-4e22-be8d-f640d5d12dfc")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 87.63 60.96 0)
 			(effects
 				(font
@@ -7876,10 +7974,6 @@
 					(reference "#PWR034")
 					(unit 1)
 				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "#PWR033")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7893,7 +7987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a87b308a-154b-46ba-8636-1bba9e9dd509")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 87.63 68.58 0)
 			(effects
 				(font
@@ -7962,96 +8056,6 @@
 					(reference "#PWR054")
 					(unit 1)
 				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 129.54 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9c664ae-f2c1-4bfb-924a-d0c8b6441a7f")
-		(property "Reference" "#PWR029"
-			(at 129.54 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 129.54 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 129.54 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d560a21-9bd8-42d7-854c-3f8626b2440f")
-		)
-		(instances
-			(project "matrix-controller"
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/1375f33a-57ea-49ee-a7a9-6173eeab9dc4"
-					(reference "#PWR049")
-					(unit 1)
-				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/20a19834-5d4a-4f9b-97d0-ef4e9cc948c9"
-					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/6bcdc057-d713-4dcd-9a4f-906e662a8126"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/72834a19-bebc-4ea5-80c1-d8ebc43f143d"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/9d936f13-4432-4cb0-823a-c913cf8ad7e0"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "#PWR029")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -8065,7 +8069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1a2767-33e5-457f-b983-6d514a35b1d5")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR023"
 			(at 132.08 34.29 0)
 			(effects
 				(font
@@ -8134,8 +8138,169 @@
 					(reference "#PWR023")
 					(unit 1)
 				)
-				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/f00320e7-478c-474b-9fd1-c4cf57aa5a54"
-					(reference "#PWR01")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 109.22 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feab6368-efb9-4f93-ab49-722e5dea859e")
+		(property "Reference" "#PWR07"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 105.41 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11dd7e70-4f2a-486e-8a61-7e6fedfcfbe8")
+		)
+		(instances
+			(project ""
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/1375f33a-57ea-49ee-a7a9-6173eeab9dc4"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/20a19834-5d4a-4f9b-97d0-ef4e9cc948c9"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/6bcdc057-d713-4dcd-9a4f-906e662a8126"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/72834a19-bebc-4ea5-80c1-d8ebc43f143d"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/9d936f13-4432-4cb0-823a-c913cf8ad7e0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 129.54 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffcdb437-c6f3-4d51-af2d-a537daf53ddc")
+		(property "Reference" "#PWR035"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3b63609-e59a-493c-af19-0426f83c2169")
+		)
+		(instances
+			(project "matrix-controller"
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/1375f33a-57ea-49ee-a7a9-6173eeab9dc4"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/20a19834-5d4a-4f9b-97d0-ef4e9cc948c9"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/6bcdc057-d713-4dcd-9a4f-906e662a8126"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/72834a19-bebc-4ea5-80c1-d8ebc43f143d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/70af459e-5fc9-4c1d-894d-7e71ab2dca95/9d936f13-4432-4cb0-823a-c913cf8ad7e0"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
